@@ -18,9 +18,9 @@ import java.util.Random;
 @RestController
 public class Node {
 
-    private static final String ACCOUNT_SID = "your_twilio_account_sid";
-    private static final String AUTH_TOKEN = "your_twilio_auth_token";
-    private static final String TWILIO_PHONE_NUMBER = "your_twilio_phone_number";
+    private static final String ACCOUNT_SID = "ACd61381720a5534459d03e614e8728c13";
+    private static final String AUTH_TOKEN = "12864d154edde28691d835c88afc5055";
+    private static final String TWILIO_PHONE_NUMBER = "+918270426785";
     private static final Map<String, String> otps = new HashMap<>(); // In-memory storage for OTPs
 
     public static void main(String[] args) {
