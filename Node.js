@@ -5,7 +5,7 @@ const twilio = require('twilio');
 const app = express();
 const port = 3000;
 
-const ACCOUNT_SID = 'ACd61381720a5534459d03e614e8728c13';
+const ACCOUNT_SID = 'VA30cb163da1e8d8de5ff4c95f9862b9fc';
 const AUTH_TOKEN = '12864d154edde28691d835c88afc5055';
 const TWILIO_PHONE_NUMBER = '+918270426785';
 const otps = {}; // In-memory storage for OTPs
